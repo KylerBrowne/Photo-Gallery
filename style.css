@@ -1,0 +1,273 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+body {
+  width: 1310px;
+  background-color: #000000;
+  margin: auto;
+}
+
+header h1 {
+  position: absolute;
+  top: 1px;
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 40px;
+  color: #007d7b;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 20px 40px 20px;
+}
+
+nav h2 {
+  visibility: hidden;
+  height: 1px;
+}
+
+ul {
+  font-size: 20px;
+  display: flex;
+  list-style: none;
+  gap: 80px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  color: white;
+}
+
+nav a:hover {
+  color: #007d7b;
+  cursor: pointer;
+}
+
+header section {
+  background-color: white;
+  width: 1310px;
+  margin: auto;
+  padding: 16px 0px 16px 16px;
+}
+
+header img {
+  width: 850px;
+  margin-right: 10px;
+  float: left;
+}
+
+header section {
+  text-align: right;
+}
+
+header section h2 {
+  float: right;
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-right: 1rem;
+  margin-top: 30px;
+}
+
+header section p {
+  float: right;
+  margin-right: 1rem;
+  font-size: 20px;
+  width: 420px;
+}
+
+main section:nth-of-type(1) {
+  background-color: white;
+  width: 1310px;
+  margin: auto;
+  padding: 16px 0px 16px 16px;
+  margin-bottom: 10px;
+}
+
+main section h2 {
+  clear: both;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main section p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+figure {
+  display: inline-block;
+  padding: 0.2rem 0.2 rem 0.2 rem 0;
+}
+
+img[src*="Chile"] ~ figcaption {
+  color: black;
+  position: relative;
+  top: -270px;
+  margin-left: 10px;
+}
+
+img[src*="Guatemala"] ~ figcaption {
+  color: white;
+  position: relative;
+  top: -270px;
+  margin-left: 10px;
+}
+
+img[src*="Hawaii"] ~ figcaption {
+  color: white;
+  position: relative;
+  top: -40px;
+  left: 290px;
+  margin-left: 10px;
+}
+
+img[src*="Iran"] ~ figcaption {
+  color: black;
+  position: relative;
+  top: -610px;
+  margin-left: 10px;
+}
+
+img[src*="Ireland"] ~ figcaption {
+  color: white;
+  position: relative;
+  top: -40px;
+  left: 290px;
+  margin-left: 10px;
+}
+
+img[src*="Italy"] ~ figcaption {
+  color: white;
+  position: relative;
+  top: -40px;
+  left: 0px;
+  margin-left: 10px;
+}
+
+img[src*="Moab"] ~ figcaption {
+  color: white;
+  position: relative;
+  top: -40px;
+  left: 250px;
+  margin-left: 10px;
+}
+
+img[src*="Rocky"] ~ figcaption {
+  color: black;
+  position: relative;
+  top: -270px;
+  margin-left: 10px;
+}
+
+img[src*="Swit"] ~ figcaption {
+  color: black;
+  position: relative;
+  top: -40px;
+  margin-left: 10px;
+}
+
+img[src*="UK"] ~ figcaption {
+  color: white;
+  position: relative;
+  top: -40px;
+  left: 320px;
+  margin-left: 10px;
+}
+
+img[src*="USA"] ~ figcaption {
+  color: white;
+  position: relative;
+  top: -270px;
+  margin-left: 10px;
+}
+
+img[src*="Wy"] ~ figcaption {
+  color: white;
+  position: relative;
+  top: -270px;
+  margin-left: 10px;
+}
+
+main section:nth-of-type(2) h2,
+main section:nth-of-type(2) p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+main section:nth-of-type(2) h2 {
+  font-size: 40px;
+}
+
+form {
+  width: 850px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+label {
+  font-size: 16px;
+}
+
+input {
+  width: 840px;
+  padding: 12px 10px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007d7b;
+}
+
+form p {
+  font-size: 16px;
+  background-color: #007d7b;
+  width: 300px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+  color: white;
+  width: 850px;
+  margin: auto;
+}
+
+footer p {
+  margin: 15px;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+ul li:last-child {
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  background-color: #007d7b;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 0;
+}
+
+ul li:last-child:hover {
+  background-color: white;
+}
